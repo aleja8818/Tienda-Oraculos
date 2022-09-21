@@ -1,0 +1,71 @@
+.banner{
+    background-image: url("../img/fotobanner.jpg");
+    padding: 15% 30% 25% 8%;
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    z-index:1;
+}
+
+.banner::after{
+    content: '';
+    height: 100%;
+    width:100%;
+    background-color: black;
+    position:absolute;
+    top:0;
+    left:0;
+    opacity: 0.45;
+    z-index: -1;
+}
+
+.fuente{
+    font-family: 'Delius', cursive;
+    font-family: 'Just Another Hand', cursive;
+    font-family: 'Kalam', cursive;
+ 
+}
+
+#form {
+    width: 250px;
+    margin: 0 auto;
+    height: 50px;
+  }
+  
+  #form p {
+    text-align: center;
+  }
+  
+  #form label {
+    font-size: 20px;
+  }
+  
+  input[type="radio"] {
+    display: none;
+  }
+  
+  label {
+    color: rgb(252, 246, 246);
+  }
+  
+  .clasificacion {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+  }
+  
+  label:hover,
+  label:hover ~ label {
+    color: orange;
+  }
+  
+  input[type="radio"]:checked ~ label {
+    color: orange;
+  }
+
+  
+ body{
+    background-color: black;
+    color:rgb(236, 230, 230)
+ }
+
+
